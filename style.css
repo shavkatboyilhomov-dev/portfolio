@@ -1,0 +1,199 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  background:
+    linear-gradient(rgba(12, 14, 79, 0.6), rgba(0, 0, 0, 0.881)),
+    url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564");
+
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: rgb(29, 110, 97);
+}
+.family h1 {
+  font-size: 60px;
+
+  margin-bottom: 20px;
+}
+.group h1 {
+  font-size: 60px;
+
+  margin-bottom: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 80px;
+
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 600;
+
+  color: red;
+}
+
+nav a {
+  text-decoration: none;
+
+  color: rgb(11, 14, 72);
+
+  background: #c40000;
+
+  padding: 10px 20px;
+
+  border-radius: 12px;
+
+  margin-left: 15px;
+
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: red;
+
+  box-shadow: 0 0 10px red;
+}
+
+.section {
+    padding-bottom: 59px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #ccc;
+
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 40px;
+  justify-content: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+
+  height: 250px;
+
+  border-radius: 20px;
+}
+
+.card h3 {
+  margin-top: 10px;
+
+  color: rgba(28, 147, 149, 0.714);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+
+  box-shadow: 0 0 20px red;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+  height: 100vh;
+}
+
+/* Левая часть */
+.about-left {
+  max-width: 600px;
+}
+
+/* Заголовки */
+.about-left h1 {
+  font-size: 48px;
+  color: #00ffd5;
+}
+
+.about-left h2 {
+  font-size: 40px;
+  margin-top: 10px;
+  color: #00ffd5;
+}
+
+.about-left span {
+  color: #ff0000;
+}
+
+.about-left p {
+  margin-top: 20px;
+  color: #cccccc;
+  font-size: 18px;
+}
+
+.about-right img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.guruh-description{
+    margin-bottom: 50px;
+}
+.oilam-title{
+    margin-bottom: 50px;
+}
+@keyframes burst {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+    }
+    70% {
+        opacity: 0.8;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 0;
+    }
+}

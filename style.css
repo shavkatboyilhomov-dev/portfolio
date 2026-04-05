@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+
 }
 
 * {
@@ -20,6 +21,7 @@ body {
 
   color: rgb(29, 110, 97);
 }
+
 .family h1 {
   font-size: 60px;
 
@@ -137,7 +139,6 @@ nav a:hover {
   height: 100vh;
 }
 
-/* Левая часть */
 .about-left {
   max-width: 600px;
 }
